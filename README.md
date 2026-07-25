@@ -9,6 +9,6 @@ This project uses encoder-only language models to build vector representations o
 - Open Discourse Dataset
 - CHES / Manifesto Project
 
-# Repo Structure
+## Repo Structure
 - /data
 - /notebooks
