@@ -1,1 +1,12 @@
+# macOS
 .DS_Store
+
+# Raw data (large)
+/data/raw/*
+!/data/raw/.gitkeep
+
+# Processed data — keep only zipped versions, ignore raw CSVs
+/data/processed/*.csv
+
+# R
+.Rhistory
