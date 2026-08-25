@@ -1,11 +1,11 @@
 """
 Shared embedding helpers for the parliamentary-speech-embeddings pipeline.
-Used by 02-01_embedding_baseline.ipynb and 02-02_finetuning_embedding.ipynb
-so both notebooks embed speeches the same way and can't silently drift apart
-(e.g. different max_length or pooling logic between the two).
+Used by 02-01_embedding_baseline.ipynb, 02-02_finetuning_embedding.ipynb, and
+02-03_topic_embeddings.ipynb so all three notebooks embed/pool the same way
+and can't silently drift apart (e.g. different max_length or pooling logic).
  
 Place this file in the same directory as the notebooks and import with:
-    from embedding_utils import mean_pooling, embed_batch, embed_speeches
+    from embedding_utils import mean_pooling, embed_speeches
 """
 import numpy as np
 import torch
