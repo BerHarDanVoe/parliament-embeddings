@@ -39,13 +39,13 @@ The notebooks load files by plain filename, without a folder prefix. Download wh
 ```
 01_data/
 ├── raw/
-│   ├── speeches.csv				open discourse dataset
-│   ├── CHES.csv				chapel hill expert survey
-│   └── factions.csv				auxiliary table
+│   ├── speeches.csv				        open discourse dataset
+│   ├── CHES.csv				            chapel hill expert survey dataset
+│   └── factions.csv				        auxiliary table
 └── preprocessed/
-    ├── speeches_main_2000_2021.csv	  	cleaned speeches
+    ├── speeches_main_2000_2021.csv	  	    cleaned speeches
     ├── speeches_main_2000_2021_trimmed.csv	same, opening formulas trimmed
-    └── ches_de.csv				filtered expert survey dataset
+    └── ches_de.csv				            filtered expert survey dataset
 
 02_split_speech_corpus/
 ├── embedding_corpus.csv                  	82,447 speeches, main analysis
