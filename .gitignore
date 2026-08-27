@@ -1,13 +1,5 @@
 # macOS
 .DS_Store
 
-# Raw data (large)
-/data/raw/*
-!/data/raw/.gitkeep
-
-# Processed data — keep folder structure only, ignore all data files
-/data/processed/*
-!/data/processed/.gitkeep
-
 # R
 .Rhistory
